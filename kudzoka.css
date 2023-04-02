@@ -1,0 +1,406 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+
+
+header {
+    background-image: url("landing.png");
+    background-repeat: no-repeat;
+    background-position: center;
+   background-size: cover;
+    height: 900px;
+}
+
+nav {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px 0px 40px;
+}
+
+.left .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: inline-block;
+    width: 120px;
+    margin-right: 30px
+    
+
+}
+.left a {
+    display: inline-block;
+    margin-right: 30px;
+    text-decoration: none;
+    color: #8f959e;
+    font-weight: 500;
+    position: relative;
+}
+
+.left a::after {
+    width: 0;
+    height: 4px;
+    background-color: #96318e;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+.left a:hover::after {
+    width: 100%;
+    transition: all 0.7s;
+    border-radius: 10px;
+}
+.right a {
+    display: inline-block;
+   
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    position: absolute;
+   margin-top: 5px;
+   margin-left: 24px;
+    font-size: 15px;
+}
+.right img {
+    width: 85px;
+    cursor: url("login_button_bg.png") , pointer;
+ }
+
+ .right a:hover {
+color: #5bd3f6;
+background-color: #fafafa;
+ }
+
+ .main-container {
+  position: relative;
+
+ }
+ .main-container .main-left h1 {
+    font-size: 3.5em;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .main-container .main-left span {
+    color: #96318e;
+ }
+ .main-container .main-left p {
+    font-size: 25px;
+    font-weight: lighter;
+    line-height: 1.8em;
+ }
+ 
+ .main1-right{
+    position: absolute;
+    right: 40px;
+    top: -50px;
+ }
+  .main-right{
+    position: relative;
+    width: 500px;
+    height: 700px;
+    overflow: hidden;
+    right: 20px;
+  }
+  .main-right img {
+    width: 100%;
+    position: absolute;
+    display: block;
+  }
+  .main-right .landing-bg {
+    width:550px;
+    top: 40px;
+   
+  }
+
+  .main-right .smily-man {
+    width: 220px;
+    right: 140px;
+    top: 75px;
+  }
+
+  .main-right .clouds {
+    top: 360px;
+    left: 100px;
+    width: 400px;
+  }
+  .main-left {
+    padding-top: 140px;
+    padding-left: 80px;
+ }
+  .wav-pic {
+    position: relative;
+
+  }
+  .wav-pic .waves {
+    display:inline-block ;
+    width: 1400px;
+    height: 200px;
+    position: absolute;
+    top: 150px;
+    right: 190px;
+  }
+
+  .first-sec{
+    position: relative;
+    padding: 10px 100px;
+
+  }
+
+  .line-div {
+    position: absolute;
+    display: inline-block;
+    width: 60em;
+    top: 200px;
+    overflow: hidden;
+  }
+
+  .line-div img {
+    width: 100%;
+  }
+  .first-sec div img {
+    display: block;
+    margin: 10px auto;
+  }
+
+  .first-sec div h3 {
+    color: #757575;
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .first-sec div p {
+    font-size: 20px;
+    color: #727273;
+    font-weight: 400;
+    text-align-last: center;
+  }
+  .timer {
+    position: absolute;
+    right: 1000px;
+    top: 390px;
+
+  }
+
+  .timer img,.fast img {
+    width: 200px;
+  }
+  .first-sec .fast {
+    position: absolute;
+    top: 219px;
+    left: 38px;
+
+  }
+  .first-sec div.kudzoka div.kudzoka1 div.kud-info {
+    position: absolute;
+    
+    top: 130px;
+    left: 145px;
+  }
+
+  div.kud-info h6   {
+    color: #fff8f8;
+  }
+  div.kud-info h3   {
+    color: #fff8f8;
+  }
+  
+
+  div.kudinfo h3 {
+    font-size: 3px;
+    font-weight: 40;
+  }
+  div.kud-info h6 {
+    margin-bottom: 6px;
+    font-size: 15px;
+    font-weight: 400px;
+  }
+  .first-sec div.kudzoka img {
+    width: 350px;
+  }
+  .first-sec div.kudzoka{
+    position: absolute;
+    right: 1300px;
+    top: 700px;
+  }
+  div.percentage {
+    position: absolute;
+    right:580px;
+    top: 570px;
+
+  }
+  div.percentage img {
+    width: 220px;
+  }
+  .second-sec {
+    margin-top: 1100px;
+  }
+  .second-sec .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   .main-container .left img{
+    display: inline-block;
+    width: 160px;
+  }
+
+  .second-sec .right img {
+    display: inline-block;
+    width: 160px;
+  }
+ 
+  
+  .second-sec .main-container .middle{
+    width: 32%;
+    position: relative;
+}
+
+.second-sec .main-container .middle ::after{
+  position: absolute;
+  border-left:3px solid #616162 ;
+  border-bottom:3px solid #616162 ;
+  width: 10px;
+  height: 10px;
+  top: -50px;
+  right: 5px;
+  transform: rotate(-135deg);
+}  
+
+.second-sec .main-container.middle::before{
+  position: absolute;
+  border-left:3px solid #616162 ;
+  border-bottom:3px solid #616162 ;
+  width: 10px;
+  height: 10px;
+  top: -50px;
+  right: 5px;
+  transform: rotate(45deg);
+}
+
+.middle img {
+  display: inline-block;
+  width: 50px;
+
+}
+
+.middle-info{
+  margin: 80px;
+  width: 350px;
+}
+
+.middle-info h3 {
+  color: #616162;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 19px;
+  font-weight: 600;
+
+}
+
+.middle-info h4 {
+  text-align: center;
+  text-align-last:center ;
+  color: #959595;
+  font-weight: 500;
+  width: 220px;
+  margin: 35px auto;
+}
+
+.middle img {
+  display: inline-block;
+  width: 400px;
+}
+
+footer {
+  background-image: url("Group 1131.png");
+ 
+  position: relative;
+  width: 100%;
+  height: 80vh;
+overflow: hidden;
+}
+
+
+.footer .back img {
+  width: 750px;
+    position: absolute;
+    right: -1px;
+    top: 200px;
+}
+
+footer .main-links {
+  position: absolute;
+  top: 400px;
+  left: 80px;
+}
+footer .pay {
+  display: flex;
+ align-items: center;
+justify-content: center;
+ 
+ 
+
+}
+
+footer .pay .apple {
+  margin:  40px 0 0 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 10px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+.apple-info h6,.apple-info h5{
+  color: #000;
+  font-weight: 400;
+}
+
+.apple-info{
+  margin-left: 5px;
+}
+.apple-icon {
+  display: inline-block;
+  width: 25px;
+ 
+
+}
+.insta,.what {
+  margin: 5px;
+  width: 25px;
+}
+.face {
+  margin: 5px;
+  width: 15px;
+
+}
+footer .nav-links {
+  margin-top: 15px;
+
+}
+footer .nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+  display: inline-block;
+  margin-right: 36px;
+  
+}
+
+
+
+
+
+
+
+
